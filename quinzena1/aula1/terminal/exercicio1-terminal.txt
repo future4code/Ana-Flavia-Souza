@@ -1,0 +1,34 @@
+Elimando os suspeitos o unico que sobrou foi Jeremy Bowers
+
+pwd
+cd assassinato-na-linha-de-comando
+ls
+cat README.md
+cat inicio
+cd misterio/
+grep “PISTA” cena-do-crime
+grep “Annabel” pessoas
+head -n 179 ruas/Vila_Buckingham | tail -n 1
+cd entrevistas/
+cat entrevista-699607
+cd ..
+grep -A 5 “L337” automoveis
+grep -C 5 “L337” automoveis
+ls
+cd associacoes/
+cat AAA Biblioteca_da_Cidade Museu_da_Historia_do_Bash Delta_SkyMiles | grep “Joe Germuska”
+
+cat AAA Biblioteca_da_Cidade Museu_da_Historia_do_Bash Delta_SkyMiles | grep “Jeremy Bowers”
+
+cat AAA Biblioteca_da_Cidade Museu_da_Historia_do_Bash Delta_SkyMiles | grep “Jacqui Maher”
+cd ..
+grep “Jeremy Bowers” pessoas
+head -n 284 ruas/Travessa_Dunstable | tail -n 1
+cd entrevistas/
+cat entrevista-9620713
+cd ..
+grep “Jacqui Maher” pessoas
+head -n 224 ruas/Travessa_Andover | tail -n 1
+cd entrevistas/
+cat entrevista-904020
+history
