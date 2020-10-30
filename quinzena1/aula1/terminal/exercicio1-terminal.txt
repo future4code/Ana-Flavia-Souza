@@ -1,4 +1,4 @@
-Elimando os suspeitos o unico que sobrou foi Jeremy Bowers
+Eliminando os suspeitos o unico que sobrou foi Jeremy Bowers
 
 pwd
 cd assassinato-na-linha-de-comando
