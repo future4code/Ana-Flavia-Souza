@@ -36,6 +36,9 @@ img {
 div img {
     background: black;
 }
+td {
+    text-align: center;
+}
 
 .botao-amarelo {
     background-color: #ffaf43;
@@ -91,6 +94,7 @@ div img {
     color: #c44f00;
     padding: 100px 0;
     font-size: 60px;
+    display: inline;
 }
 
 
