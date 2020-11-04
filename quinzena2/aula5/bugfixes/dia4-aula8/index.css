@@ -29,9 +29,9 @@ img {
     width: 100px;
 }
 
-div>p:first-child {
+/* div>p:first-child {
     display: inline;
-}
+} */
 
 div img {
     background: black;
@@ -73,10 +73,14 @@ div img {
 #container-de-descricao {
     background-color: #2274a5;
     color: white;
-   padding-top: 100px;
+    padding-top: 100px;
 }
 #container-de-descricao>ol {
     padding: 15px 0px;
+}
+#container-de-descricao>p {
+   width: 180px;
+   margin: auto;
 }
 
 #container-para-comprar {
