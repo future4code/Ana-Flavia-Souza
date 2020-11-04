@@ -33,8 +33,9 @@ img {
     display: inline;
 } */
 
-div img {
-    background: black;
+.config-img {
+    width: 40px;
+    height: 40px;
 }
 td {
     text-align: center;
