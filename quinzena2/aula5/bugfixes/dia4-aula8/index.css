@@ -121,6 +121,9 @@ td button {
     border-radius: 5px;
     color: black;
 }
+.config-butt:hover {
+    background-color: #94812e;
+}
 
 .container-do-search {
     margin-top: 20px;
