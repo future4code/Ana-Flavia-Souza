@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.top {
+  height: 80px;
+  background-color: #2e86de;
+  display: grid;
+  grid-template-columns: 30vw 20vw;
+  grid-template-areas: "logo txtbusca";
+  justify-content: space-around;
+  padding: 1% ;
+}
+.logo {
+  color: #c8d6e5; 
+}
+#txtBusca {
+  font-size: 12px;
+  border: none;
+  border-radius: 3px;
+  width: 140px;
+}
+main {
+  display: grid;
+  grid-template-areas: "video video video video" "video video video video";
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+video {
+  width: 300px;
+  height: 280px;
+}
+footer {
+  position: fixed;
+  padding: 1%;
+  bottom: 0;
+  height: 50px;
+  background-color: #2e86de;
+  width: 100%;
+  text-align: center;
+}
+span {
+  color: #c8d6e5;
+  font-size: 12px;
+}
