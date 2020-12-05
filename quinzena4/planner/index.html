@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="index.js" defer></script>
+    <title>Planner - Ana</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="menuNav">
+            <form action="">
+                <label for="tarefa" class="new-task">Nova tarefa:</label>
+                <input type="text" id="tarefa" placeholder="Digite aqui a tarefa" />
+                <select name="week-button" id="week-button">
+                  <option value="domingo">Domingo</option>
+                  <option value="segunda">Segunda</option>
+                  <option value="terca">Terça</option>
+                  <option value="quarta">Quarta</option>
+                  <option value="quinta">Quinta</option>
+                  <option value="sexta">Sexta</option>
+                  <option value="sabado">Sábado</option>
+                </select>
+              </form>
+        
+              <button onclick="adicioneTarefa()" class="button-config">Criar tarefa</button>
+        </nav>
+        <section class="anotation">
+                <p>O planner é uma ferramenta de organização do tempo e planejamento pessoal e profissional. Pode-se dizer que é a evolução da agenda – faça suas anotações a seguir.</p>
+        </section>
+        <section class="content1">
+            <div id="domingo" class="semana">
+                <h3>Domingo</h3>
+              </div>
+        </section>
+        <section class="content2">
+            <div id="segunda" class="semana">
+                <h3>Segunda-feira</h3>
+              </div>
+        </section>
+        <section class="content3">
+            <div id="terca" class="semana">
+                <h3>Terça-feira</h3>
+              </div>
+        </section>
+        <section class="content4">
+            <div id="quarta" class="semana">
+                <h3>Quarta-feira</h3>
+              </div>
+        </section>
+        <section class="content5">
+            <div id="quinta" class="semana">
+                <h3>Quinta-feira</h3>
+              </div>
+        </section>
+        <section class="content6">
+            <div id="sexta" class="semana">
+                <h3>Sexta-feira</h3>
+              </div>
+        </section>
+        <section class="content7">
+            <div id="sabado" class="semana">
+                <h3>Sábado</h3>
+              </div>
+        </section>
+        <footer>Ana Flávia | 2020</footer>
+    </div>
+</body>
+
+</html>

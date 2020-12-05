@@ -1,0 +1,135 @@
+/*reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    font-size: 80%;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+/*div*/
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.4fr 1.2fr 1.2fr 0.1fr;
+    grid-template-areas: " menuNav menuNav menuNav menuNav" " anotation content1 content2 content3" "content4 content5 content6 content7" "footer footer footer footer";
+    grid-gap: 0.8rem;
+}
+
+.button-config {
+    margin: 1%;
+}
+.new-task {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.4rem;
+}
+/*nav*/
+
+.menuNav {
+    background-color: #487eb0;
+    grid-area: menuNav;
+    font-size: 1.2rem;
+    padding-top: 40px ;
+    text-align: center;
+    justify-content: center;
+}
+
+/*section anotatio*/
+
+.anotation {
+    background-color: rgb(223, 223, 223);
+    padding: 2%;
+    grid-area: anotation;
+} 
+.anotation p {
+    text-align: center;
+    padding: 25% 3%;
+    font-size: 1.4rem;
+    color: #c23616;
+}
+
+/*section content1*/
+
+.content1 {
+    background-color: rgb(223, 223, 223);
+    padding: 2%;
+    grid-area: content1;
+    text-align: center;
+}
+
+/*section content2*/
+
+.content2 {
+    background-color: rgb(223, 223, 223);
+    padding: 2%;
+    grid-area: content2;
+    text-align: center;
+}
+
+/*section content3*/
+
+.content3 {
+    background-color: rgb(223, 223, 223);
+    padding: 2%;
+    grid-area: content3;
+    text-align: center;
+}
+
+/*section content4*/
+
+.content4 {
+    background-color: rgb(223, 223, 223);
+    padding: 2%;
+    grid-area: content4;
+    text-align: center;
+}
+
+/*section content5*/
+
+.content5 {
+    background-color: rgb(223, 223, 223);
+    padding: 2%;
+    grid-area: content5;
+    text-align: center;
+}
+
+/*section content6*/
+
+.content6 {
+    background-color: rgb(223, 223, 223);
+    padding: 2%;
+    grid-area: content6;
+    text-align: center;
+}
+
+/*section content7*/
+
+.content7 {
+    background-color: rgb(223, 223, 223);
+    padding: 2%;
+    grid-area: content7;
+    text-align: center;
+}
+
+
+/*footer*/
+
+footer {
+    background-color: #c23616;
+    grid-area: footer;
+    font-size: 1.2rem;
+    color: #fff;
+    padding: 1%;
+    text-align: center;
+}
