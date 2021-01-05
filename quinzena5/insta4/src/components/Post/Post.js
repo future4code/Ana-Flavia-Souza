@@ -68,22 +68,21 @@ class Post extends React.Component {
 
       <img className={'post-photo'} src={this.props.fotoPost} alt={'Imagem do post'}/>
 
-      <div className={'post-footer'}>
-        <IconeComContador
-          icone={iconeCurtida}
-          onClickIcone={this.onClickCurtida}
-          valorContador={this.state.numeroCurtidas}
-        />
-
-        <IconeComContador
-          icone={iconeComentario}
-          onClickIcone={this.onClickComentario}
-          valorContador={this.state.numeroComentarios}
-        />
+        <div className={'post-footer'}>
+          <IconeComContador
+            icone={iconeCurtida}
+            onClickIcone={this.onClickCurtida}
+            valorContador={this.state.numeroCurtidas}
+          />
+          <IconeComContador
+            icone={iconeComentario}
+            onClickIcone={this.onClickComentario}
+            valorContador={this.state.numeroComentarios}
+          />
+        </div>
+        {componenteComentario}
       </div>
-      {componenteComentario}
-    </div>
+    }
   }
-}
 
-export default Post
+  export default Post
