@@ -30,4 +30,13 @@
 // }
 // 2- a) false b) false c) true d) true e) true
 
-// 3-
+// 3-Não funciona, por que nao foi definido valor nenhum para a variavel quantidadeDeNumerosPares e o while está faltando a informacao para passar para o proximo valor, no caso o indice.
+// function logicaThree() {
+//     const quantidadeDeNumerosPares = prompt("Digite um número: ")
+//     let i = 0
+//     while (i < quantidadeDeNumerosPares){
+//         console.log(i * 2)
+//         i++
+//     }
+// }
+//logicaThree()
