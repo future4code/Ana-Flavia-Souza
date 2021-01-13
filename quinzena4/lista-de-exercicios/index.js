@@ -40,3 +40,14 @@
 //     }
 // }
 //logicaThree()
+
+// 4-function logicaFour(l1, l2, l3) {
+//     if (l1 === l2 && l2 === l3) {
+//         console.log("equilátero")
+//     } else if ((l1 === l2) || (l2 === l3) || (l3 === l1)) {
+//         console.log("isósceles")
+//     } else {
+//         console.log("escaleno")
+//     }
+// }
+// logicaFour(2, 1, 4)
