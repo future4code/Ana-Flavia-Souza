@@ -28,3 +28,6 @@
 //     console.log(nome)
 //   });
 // }
+// 2- a) false b) false c) true d) true e) true
+
+// 3-
