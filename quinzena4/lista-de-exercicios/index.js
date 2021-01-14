@@ -81,7 +81,7 @@
 // dif(numOne, numTwo)
 
 
-//---Exercicios de funcoes---//
+//--- Exercicios de funcoes ---//
 // 1-let array = [4, 13, 20, 19, 44, 29];
 // function numMaiorMenor(m1) {
 //
@@ -102,3 +102,9 @@
 // }
 //
 // numMaiorMenor(array)
+
+// 2-future = ()=>{alert("Hello Future4")};
+// future()
+
+
+//---
