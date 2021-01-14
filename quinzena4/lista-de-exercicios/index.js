@@ -128,3 +128,18 @@
 //   atores: ['Josh Hutcherson', 'AnnaSophia Robb', 'Zooey Deschanel'],
 // }
 // console.log("Venha assistir ao filme", filme.titulo,"de",filme.ano,", dirigido por",filme.diretor,"e estrelado por",filme.atores[0],",",filme.atores[1],"e",filme.atores[2],"!");
+
+// 4-pessoaRandom = {
+//     nome: 'João Luciano',
+//     email: 'joaoluciano@hotmail.com',
+//     endereco: 'Minas Gerais',
+// }
+// console.log(pessoaRandom)
+// function anonimizarPessoa() {
+//     anonimo = {
+//         ...pessoaRandom,
+//         nome: 'Anônimo',
+//     }
+//     console.log(anonimo)
+// }
+// anonimizarPessoa()
