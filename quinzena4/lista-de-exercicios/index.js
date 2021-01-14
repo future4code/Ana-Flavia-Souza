@@ -51,3 +51,31 @@
 //     }
 // }
 // logicaFour(2, 1, 4)
+
+// 5-
+let numOne = Number(prompt("Insira o primeiro numero:"))
+let numTwo = Number(prompt("Insira o segundo numero:"))
+function numMaior(num1, num2){
+    if(num1 > num2){
+        console.log("O maior é:", num1)
+    }else if(num2 > num1){
+        console.log("O maior é:", num2)
+    }
+}
+function div(num1, num2){
+    let div = num1 / num2
+    if(div % 2 === 0){
+        console.log(num1,"é divisivel por",num2)
+    }else{
+        console.log(num1,"não é divisivel por",num2)
+    }
+}
+function dif(num1, num2){
+    let dif = num1-num2
+    console.log("A diferenca entre os dois numeros são: ",dif)
+}
+console.log("Os numeros são:",numOne, "e", numTwo)
+numMaior(numOne, numTwo)
+div(numOne, numTwo)
+div(numTwo, numOne)
+dif(numOne, numTwo)
