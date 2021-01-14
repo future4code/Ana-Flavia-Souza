@@ -160,3 +160,25 @@
 // });
 // console.log(adultos)
 // console.log(criancas)
+
+// 2-array = [1, 2, 3, 4, 5, 6];
+// valorDobro = array.map(dobrar);
+// valorTriplo = array.map(triplicar);
+// parImpar = array.map(parOuImpar);
+//
+// function dobrar(a) {
+//     return a * 2;
+// }
+// console.log(valorDobro);
+// function triplicar(a) {
+//     return a * 3;
+// }
+// console.log(valorTriplo);
+// function parOuImpar(a) {
+//     if(a % 2 === 0) {
+//         return a, " é par";
+//     } else {
+//         return a, " é impar";
+//     }
+// }
+// console.log(parImpar);
