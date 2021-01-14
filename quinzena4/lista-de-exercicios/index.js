@@ -110,4 +110,13 @@
 //--- Exercicios de objetos ---//
 // 1- Nos objetos armazenamos mais de um dado por indices nomeados e nos arrays armazenamos um dado por indice numerado.
 
-// 2- 
+// 2- function criaRetangulo(lado1, lado2) {
+//     objretangulo = {
+//     largura: lado1,
+//     altura: lado2,
+//     perimetro: 2 * (lado1 + lado2),
+//     area: lado1 * lado2,
+//   };
+//   return objretangulo;
+// }
+// console.log(criaRetangulo(13,29))
