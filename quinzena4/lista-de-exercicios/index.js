@@ -120,3 +120,11 @@
 //   return objretangulo;
 // }
 // console.log(criaRetangulo(13,29))
+
+// 3- filme = {
+//   titulo: 'Ponte para Terabitia',
+//   ano: 2007,
+//   diretor: 'Gabor Csupo',
+//   atores: ['Josh Hutcherson', 'AnnaSophia Robb', 'Zooey Deschanel'],
+// }
+// console.log("Venha assistir ao filme", filme.titulo,"de",filme.ano,", dirigido por",filme.diretor,"e estrelado por",filme.atores[0],",",filme.atores[1],"e",filme.atores[2],"!");
