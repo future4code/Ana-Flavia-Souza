@@ -183,29 +183,51 @@
 // }
 // console.log(parImpar);
 
-// 3-
-pessoas = [
-	{ nome: "Paula", idade: 12, altura: 1.8},
-	{ nome: "João", idade: 20, altura: 1.3},
-	{ nome: "Pedro", idade: 15, altura: 1.9},
-	{ nome: "Luciano", idade: 22, altura: 1.8},
-	{ nome: "Artur", idade: 10, altura: 1.2},
-	{ nome: "Soter", idade: 70, altura: 1.9}
-];
-pode = pessoas.filter((pessoa) => {
-    if((pessoa.altura >= 1.5) && (pessoa.idade >= 14) && (pessoa.idade < 60)) {
-        return true;
-    } else {
-        return false;
-    }
-});
-naoPode = pessoas.filter((pessoa) => {
-    if((pessoa.altura < 1.5) || (pessoa.idade < 14) || (pessoa.idade > 60)) {
-        return true;
-    } else {
-        return false;
-    }
-});
+// 3- pessoas = [
+// 	{ nome: "Paula", idade: 12, altura: 1.8},
+// 	{ nome: "João", idade: 20, altura: 1.3},
+// 	{ nome: "Pedro", idade: 15, altura: 1.9},
+// 	{ nome: "Luciano", idade: 22, altura: 1.8},
+// 	{ nome: "Artur", idade: 10, altura: 1.2},
+// 	{ nome: "Soter", idade: 70, altura: 1.9}
+// ];
+// pode = pessoas.filter((pessoa) => {
+//     if((pessoa.altura >= 1.5) && (pessoa.idade >= 14) && (pessoa.idade < 60)) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// });
+// naoPode = pessoas.filter((pessoa) => {
+//     if((pessoa.altura < 1.5) || (pessoa.idade < 14) || (pessoa.idade > 60)) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// });
+//
+// console.log(pode);
+// console.log(naoPode);
 
-console.log(pode);
-console.log(naoPode);
+// 4-
+
+// 5- contas = [
+// 	{ cliente: "João", saldoTotal: 1000, compras: [100, 200, 300] },
+// 	{ cliente: "Paula", saldoTotal: 7500, compras: [200, 1040] },
+// 	{ cliente: "Pedro", saldoTotal: 10000, compras: [5140, 6100, 100, 2000] },
+// 	{ cliente: "Luciano", saldoTotal: 100, compras: [100, 200, 1700] },
+// 	{ cliente: "Artur", saldoTotal: 1800, compras: [200, 300] },
+// 	{ cliente: "Soter", saldoTotal: 1200, compras: [] }
+// ];
+//
+// function saldo() {
+//     contas.forEach((cliente)=>{
+//     dim = 0;
+//         for (gasto of cliente.compras) {
+//             dim += gasto;
+//         }
+//         cliente.saldoTotal -= dim;
+//     });
+//     return contas;
+// }
+// console.log(saldo());
