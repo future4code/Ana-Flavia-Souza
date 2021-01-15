@@ -209,7 +209,7 @@
 // console.log(pode);
 // console.log(naoPode);
 
-// 4-
+// 4- aaaaaaaaaaaah passo ;-; //
 
 // 5- contas = [
 // 	{ cliente: "João", saldoTotal: 1000, compras: [100, 200, 300] },
