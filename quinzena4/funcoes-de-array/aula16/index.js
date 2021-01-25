@@ -9,19 +9,41 @@ function imprimirDespesas(despesas){
     divDespesas.innerHTML = '<p><u>Despesas Detalhadas</u></p>'
 
     // AQUI VEM A IMPLEMENTAÇÃO
+     despesas.forEach((despesa)=>{
+        divDespesas.innerHTML += `<p>Valor : R$${despesa.valor} | Tipo : ${despesa.tipo} | Descrição : ${despesa.descricao}</p>`
+    })
 }
 
 
 // SEGUNDO 
 function imprimirExtrato(){
     let divExtrato = document.getElementById('extrato')
-    let gastoTotal = 0
+    //let gastoTotal = 0
     let gastoAlimentacao = 0
     let gastoUtilidades = 0
     let gastoViagem = 0
 
 
     // AQUI VEM A IMPLEMENTAÇÃO
+
+    arrDespesas.forEach((despesa)=>{
+
+       if (despesa.tipo === "alimentação"){
+          gastoAlimentacao += despesa.valor
+       } else if (despesa.tipo === "utilidades"){
+          gastoUtilidades += despesa.valor
+       } else if (despesa.tipo === "viagem"){
+
+          gastoViagem += despesa.valor
+       }
+
+      // gastoTotal = gastoAlimentacao + gastoUtilidades + gastoViagem
+    })
+
+    let gastoTotal = arrDespesas.reduce((totalDespesas, despesa)=>{
+           return totalDespesas + despesa.valor
+    } , 0)
+
 
     divExtrato.innerHTML = `<p>Extrato: Gasto Total: R$${gastoTotal} | Alimentação: R$${gastoAlimentacao} | 
                                         Utilidades: R$${gastoUtilidades} | Viagem: R$${gastoViagem}</p>`
@@ -49,12 +71,12 @@ function adicionarDespesa(){
         }
 
         arrDespesas.push(novaDespesa)
-        
+
         valorCdt.value = ""
         tipoCtd.value = ""
         descricaoCtd.value = ""
 
-        
+
         limparFiltros()
         imprimirDespesas(arrDespesas)
         imprimirExtrato()
@@ -71,12 +93,28 @@ function filtrarDespesas(){
     let valorMin = Number(document.getElementById('valorFiltroMin').value)
     let valorMax = Number(document.getElementById('valorFiltroMax').value)
 
+    if (tipoFiltro !== "" && valorMin !== "" && valorMax !== "" && valorMin >= 0 && valorMin < valorMax  && valorMax >= 0){
 
-    let despesasFiltradas // AQUI NESSA VARIÁVEL VEM A IMPLEMENTAÇÃO
+        let despesasFiltradas = arrDespesas.filter((despesa)=>{
+          return despesa.tipo === tipoFiltro && despesa.valor >= valorMin && despesa.valor <= valorMax
+        })
 
-    imprimirDespesas(despesasFiltradas)
+        imprimirDespesas(despesasFiltradas)
+    } else {
+        alert("Faltou o preenchimento de algum campo, ou algum valor está negativo ou valor mínimo está maior que o valor máximo")
+    }
+
+
 }
 
+
+function ordenarDespesas(){
+    let despesasOrdenadas = arrDespesas.sort((a, b)=>{
+        return b.valor - a.valor
+    })
+
+    imprimirDespesas(despesasOrdenadas)
+}
 
 
 
